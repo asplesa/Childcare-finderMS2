@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+/* Header*/
+
+.header {
+  padding: 0px 0px;
+  
+}
+
+.navbar-brand {
+  font-family: "Expo";
+  color: #fafafa;
+  font-weight: bold; 
+  font-style: italic;
+  }
+
+
+.navbar {
+background-color: blueviolet;
+width: 100%;
+color: #fafafa;
+padding-left: 5px;
+padding-right: 0px;
+border: 0;
+margin-left: auto;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+
+.navbar .navbar-nav a {
+  color: #ffffff;
+}
+
+.navbar .navbar-nav a {
+  font-weight: bold;
+  color: #ffffff;
+  font-family: "Expo";
+}
+
+/* Homepage Hero image*/
+
+#cover-outer {
+  height: 600px;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+  overflow-x: hidden;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    max-width: 100%;
+    
+    background: url("../images/homepage-hero-image.png") no-repeat center center;
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
