@@ -70,3 +70,21 @@ margin-left: auto;
   -o-background-size: cover;
   background-size: cover;
 }
+
+footer {
+    height: 75px;
+    background-color: blueviolet;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links i {
+    color: #fafafa;
+}
+
+.text-center {
+    color: #fafafa;
+}
+
