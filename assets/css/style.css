@@ -84,7 +84,22 @@ footer {
     color: #fafafa;
 }
 
-.text-center {
+.text-copyright {
     color: #fafafa;
 }
 
+/* Homepage Featured Section*/
+
+
+.block-divider {
+  width: 75px;
+  height: 3px;
+  background-color: #777777;
+  border: 0;
+  margin: 0 auto;
+}
+
+#featured {
+    display: flex;
+    justify-content: center;
+}
