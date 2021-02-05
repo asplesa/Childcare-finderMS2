@@ -1,7 +1,14 @@
-$('button').click(function() {
-    $(this).prev().slideDown();	
-});
+// Featured provided bio is hidden when page is loaded, when button is pressed the content is shown
+document.addEventListener('DOMContentLoaded', toggleContent());
+document.addEventListener('DOMContentLoaded', hideContent());
 
-$('h2').click(function() {
-	$(this).next().children("p").slideUp();
-});
+
+function hideContent() {
+    $('.card-body').children('p').hide();
+};
+
+function toggleContent() {
+    $(".card-button").click(function () {
+        $(this).siblings('p').slideToggle('slow');
+    });
+};

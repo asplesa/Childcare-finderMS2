@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous"/>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <title>Home | Find Childcare</title>
 
 
@@ -52,34 +53,40 @@
         <h2 class="uppercase text-center mt-3">Our Featured Providers</h2>
         <hr class="block-divider" />
         <br>
+
     <div class="row text-center">
         <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-            <div class ="media-creche">
-                <img src="assets/images/creche-1.png" alt="creche-1" height="200" width="200"> 
+            <div>
+                <img src="assets/images/creche-1.png" alt="sniggering-tots" height="200" width="200"> 
+            <br>
+            <div class="card-body">
+                <button type="button" class="btn btn-light btn-small card-button">Read More</button>
+            <p>Sniggering Tots is a creche like no other, designed to give the best possible childcare at the most affordable and flexible rates with top quality indoor and outdoor facilities. It is the ideal place for children to laugh and learn. Our qualified, experienced, staff create and maintain a safe, stimulating and exciting environment designed for all children.</p>
+            </div>
+        </div>
+    </div>
+    
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+            <div>
+                <img src="assets/images/creche-2.png" alt="learning-hands" height="200" width="200">
                 <br>
-                <div>
-                <button type="button" class="btn btn-light btn-small">Read More</button>
-            <h3>Featured Provider 1</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisis mauris sit amet massa vitae tortor condimentum lacinia quis. Est placerat in egestas erat imperdiet sed euismod nisi porta. Massa massa ultricies mi quis hendrerit. Sit amet mattis vulputate enim nulla.</p>
-  </div>
+            <div class="card-body">
+                <button type="button" class="btn btn-light btn-small card-button">Read More</button>
+            <p>Learning Hands is a focused school-age childcare provider. We exist to excite, engage and entertain children before school, after school, and throughout school holidays. We are a family-owned and run business and we aim to provide a premium service for school-aged children in an environment designed and dedicated with their sole needs in mind.</p>
+            </div>
+            </div>
         </div>
-        </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+            
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
                 <div class ="media-creche">
-                <img src="assets/images/creche-2.png" alt="creche-1" height="200" width="200">
-                <h3>Featured Provider 2</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisis mauris sit amet massa vitae tortor condimentum lacinia quis. Est placerat in egestas erat imperdiet sed euismod nisi porta. Massa massa ultricies mi quis hendrerit. Sit amet mattis vulputate enim nulla.</p>
-            <button type="button" class="btn btn-light btn-small">Read More</button>
-        </div>
-            </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                <div class ="media-creche">
-                <img src="assets/images/creche-3.png" alt="creche-1" height="200" width="200">
-                <h3>Featured Provider 3</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisis mauris sit amet massa vitae tortor condimentum lacinia quis. Est placerat in egestas erat imperdiet sed euismod nisi porta. Massa massa ultricies mi quis hendrerit. Sit amet mattis vulputate enim nulla.</p>
-           <button type="button" class="btn btn-light btn-small">Read More</button>
+                <img src="assets/images/creche-3.png" alt="sagemille-creche" height="200" width="200">
+               <br>
+            <div class="card-body">
+                <button type="button" class="btn btn-light btn-small card-button">Read More</button>
+                <p>Sagemille creche is a bright and airy centre that has 6 spacious rooms, all colourfully decorated and arranged to offer each child the chance to explore and investigate their environment. There are lots of opportunities to enjoy messy play and art activities, supporting the children’s natural curiosity and love of learning.</p>
             </div>
             </div>
+        </div>    
 
     </div>
 </div>
@@ -90,18 +97,25 @@
         <li class="list-inline-item"><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Facebook</span></a></li>
         <li class="list-inline-item"><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i><span class="sr-only">Twitter</span></a></li>
         </ul>
-        <p class="text-center">
+        <p class="text-center" id="text-copyright">
         <small>2021 Childare Finder <i class="fa fa-copyright"></i></small>
       </p>
     </footer>
 
-
 <!--Scripts-->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+        integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 <script src="assets/js/main.js"></script>
+
 
 </body>
 
