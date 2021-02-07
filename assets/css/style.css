@@ -73,6 +73,8 @@ margin-left: auto;
   background-size: cover;
 }
 
+/* Footer*/
+
 footer {
     height: 75px;
     background-color: blueviolet;
@@ -104,4 +106,10 @@ footer {
     display: flex;
     justify-content: center;
     color: #777777;
+}
+
+/* Search Section*/
+
+#search-function {
+    height: 600px;
 }

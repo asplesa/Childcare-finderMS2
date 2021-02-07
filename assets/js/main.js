@@ -12,3 +12,5 @@ function toggleContent() {
         $(this).siblings('p').slideToggle('slow');
     });
 };
+
+
