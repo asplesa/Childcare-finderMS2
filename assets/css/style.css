@@ -88,12 +88,20 @@ footer {
     color: #fafafa;
 }
 
-#text-copyright {
+#text-copyright i {
     color: #fafafa;
 }
 
-/* Homepage Featured Section*/
+#text-copyright small {
+    color: #fafafa;
+}
+/* Search Section*/
+#search-function {
+    height: 600px;
+}
 
+
+/* Homepage Featured Section*/
 .block-divider {
   width: 75px;
   height: 3px;
@@ -108,8 +116,3 @@ footer {
     color: #777777;
 }
 
-/* Search Section*/
-
-#search-function {
-    height: 600px;
-}
