@@ -53,11 +53,13 @@
          <!-- Dropdown method -->
          <!-- https://basscss.com/v7/docs/btn-primary/-->
          <!-- How to center the button https://stackoverflow.com/questions/41664991/bootstrap-4-how-do-i-center-align-a-button#:~:text=With%20the%20use%20of%20the,will%20refer%20to%20the%20setting.-->
-    <div class="dropdown">
-        <button class="btn btn-primary mb1 mx-auto mb-5 d-block bg-purple dropdown-toggle" type="button" data-toggle="dropdown">
-            <span class="caret"></span>
+    <div class="dropdown mx-auto mb-5 text-center">
+            
         <select id="location"  onchange="initMap()">
             <option value="dub">Choose from</option>
+            <option value="snig">Sniggering Tots</option>
+            <option value="learn">Learning Hands</option>
+            <option value="sage">Sagemille Creche</option>
             <option value="girifsc">Giraffe IFSC Creche</option>
             <option value="girhar">Giraffe Harcount Road Creche</option>
             <option value="rain">Rainbow Creche</option>
@@ -65,7 +67,7 @@
             <option value="cuddle">Cuddle Childminders</option>
             <option value="pam">Pamela Childminders</option>
             </select>
-    </button>
+
     </div>
 
 <!--Google Map-->
@@ -90,6 +92,7 @@
             <br>
             <div class="card-body">
                 <button type="button" class="btn btn-light btn-small card-button">Read More</button>
+                <p>Location</p>
             <p>Sniggering Tots is a creche like no other, designed to give the best possible childcare at the most affordable and flexible rates with top quality indoor and outdoor facilities. It is the ideal place for children to laugh and learn. Our qualified, experienced, staff create and maintain a safe, stimulating and exciting environment designed for all children.</p>
             </div>
         </div>
@@ -140,7 +143,7 @@
 <script src="assets/js/maps.js"></script>
 <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdLe0PQG2bgEice5Z3SEaIdd9vbSlXoCY&callback=initMap" type="text/javascript"></script>
-
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUpCBqu6FOcv0gH0B067X4vAHoSrLPXjs&libraries=places"></script>
 
 </body>
 </html>
