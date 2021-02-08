@@ -54,18 +54,21 @@
          <!-- https://basscss.com/v7/docs/btn-primary/-->
          <!-- How to center the button https://stackoverflow.com/questions/41664991/bootstrap-4-how-do-i-center-align-a-button#:~:text=With%20the%20use%20of%20the,will%20refer%20to%20the%20setting.-->
     <div class="dropdown">
-        <button class="btn btn-primary mb1 mx-auto mb-2 d-block bg-purple dropdown-toggle" type="button" data-toggle="dropdown">
-         Childcare Types
+        <button class="btn btn-primary mb1 mx-auto mb-5 d-block bg-purple dropdown-toggle" type="button" data-toggle="dropdown">
             <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu">
-            <li><a href="#">Creche</a></li>
-            <li><a href="#">Montessori</a></li>
-            <li><a href="#">Childminder</a></li>
-        </ul>
+        <select id="location"  onchange="initMap()">
+            <option value="dub">Choose from</option>
+            <option value="girifsc">Giraffe IFSC Creche</option>
+            <option value="girhar">Giraffe Harcount Road Creche</option>
+            <option value="rain">Rainbow Creche</option>
+            <option value="dumbo">Dumbo Childminding</option>
+            <option value="cuddle">Cuddle Childminders</option>
+            <option value="pam">Pamela Childminders</option>
+            </select>
+    </button>
     </div>
 
-
+<!--Google Map-->
     <div id="map"></div>
 
     </section>
