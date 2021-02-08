@@ -97,7 +97,7 @@ footer {
 }
 /* Search Section*/
 #search-function {
-    height: 600px;
+    height: 500px;
 }
 
 
@@ -116,3 +116,4 @@ footer {
     color: #777777;
 }
 
+div#map {min-height: 360px;}
