@@ -43,14 +43,57 @@
         <div id="hero-image" class="container-fluid"></div>
     </section>
 
-<section>Contact Us Form </section>
+ <!--Contact Us content-->
+    <section class="contact-form container-fluid">
+        <div class="row">
+            <div class="col-12">
+          <h1 class="text-center">Have you got a question?</h1>
+            <p class="text-center">Contact Us today</p>
+          <div class="center-form">
+            <form>
+            <label for="fullname">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="fullname"
+                class="form-control" required/>
+              <label for="emailaddress">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="emailaddress"
+                class="form-control" required/>
+              <label for="phone">Phone</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                class="form-control" required/>
+              <label for="query">Query</label>
+              <textarea
+                rows="3"
+                name="query"
+                id="query"
+                class="form-control" required></textarea>
+              <div class="form-row text-center">
+                <div class="col">
+                  <button type="submit" class="btn contact-button">
+                    Contact Us
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+     </div>
+</div>
+</section>
 
     <footer>
         <ul class="list-inline social-links">
         <li class="list-inline-item"><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Facebook</span></a></li>
         <li class="list-inline-item"><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i><span class="sr-only">Twitter</span></a></li>
         </ul>
-        <p class="text-copyright" id="text-copyright">
+        <p class="text-center" id="text-copyright">
         <small>2021 Childare Finder <i class="fa fa-copyright"></i></small>
       </p>
     </footer>
