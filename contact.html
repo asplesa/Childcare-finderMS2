@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
     <title>Contact Us | Find Childcare</title>
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon 40x40.png"/>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+<script type="text/javascript">
+(function() {
+emailjs.init("user_S704QGoVaaKvtcZUSMcNA");
+})();
+</script>
 </head>
 <body>
     <!--Logo and Navigation bar-->
@@ -44,45 +50,28 @@
     </section>
 
  <!--Contact Us content-->
-    <section class="contact-form container-fluid">
-        <div class="row">
-            <div class="col-12">
-          <h1 class="text-center">Have you got a question?</h1>
-            <p class="text-center">Contact Us today</p>
-          <div class="center-form">
-            <form>
+<section class="contact-form container-fluid">
+    <div class="row">
+    <div class="col-12">
+        <h1 class="text-center">Have you got a question?</h1>
+        <p class="text-center">Contact Us today</p>
+          
+    <div class="center-form">
+        <form onsubmit="return sendMail(this);">
             <label for="fullname">Name</label>
-              <input
-                type="text"
-                name="name"
-                id="fullname"
-                class="form-control" required/>
-              <label for="emailaddress">Email</label>
-              <input
-                type="email"
-                name="email"
-                id="emailaddress"
-                class="form-control" required/>
-              <label for="phone">Phone</label>
-              <input
-                type="tel"
-                id="phone"
-                name="phone"
-                class="form-control" required/>
-              <label for="query">Query</label>
-              <textarea
-                rows="3"
-                name="query"
-                id="query"
-                class="form-control" required></textarea>
+              <input type="text" name="name" id="fullname" class="form-control" required/>
+            <label for="emailaddress">Email</label>
+              <input type="email" name="email" id="emailaddress" class="form-control" required/>
+            <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" class="form-control" required/>
+            <label for="query">Query</label>
+                <textarea rows="3" name="query" id="query" class="form-control" required></textarea>
               <div class="form-row text-center">
                 <div class="col">
-                  <button type="submit" class="btn contact-button">
-                    Contact Us
-                  </button>
+        <button type="submit" class="btn contact-button">Contact Us</button>
                 </div>
               </div>
-            </form>
+        </form>
           </div>
      </div>
 </div>
@@ -99,8 +88,9 @@
     </footer>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="assets/js/sendEmail.js"></script>
 </body>
 
 

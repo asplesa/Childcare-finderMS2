@@ -118,7 +118,24 @@ footer {
 #featured {
     display: flex;
     justify-content: center;
-    color: #777777;
+    color: #777777; 
+
 }
 
 div#map {min-height: 360px;}
+
+/* Contact form*/
+
+.contact-form {
+  
+}
+
+.contact-button {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  background-color: #8a2be2;
+  color: #ffffff;
+  width: 185px;
+  border-radius: 50px;
+  font-weight: bold;
+}
