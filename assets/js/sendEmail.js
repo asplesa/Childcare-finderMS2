@@ -15,3 +15,9 @@
     );
     return false;  // To block from loading a new page
 }
+
+
+$('#myForm').on('submit', function(e){
+  $('#myModal').modal('show');
+  e.preventDefault();
+});
