@@ -26,7 +26,7 @@ function initMap() {
 
 else if (document.getElementById("location").value === 'snig') {
         var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 13,
+            zoom: 15,
             center: snig
         });
         new google.maps.Marker({
@@ -37,7 +37,7 @@ else if (document.getElementById("location").value === 'snig') {
 
 else if (document.getElementById("location").value === 'learn') {
         var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 13,
+            zoom: 15,
             center: learn
         });
         new google.maps.Marker({
@@ -48,7 +48,7 @@ else if (document.getElementById("location").value === 'learn') {
 
     else if (document.getElementById("location").value === 'sage') {
         var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 13,
+            zoom: 15,
             center: sage
         });
         new google.maps.Marker({
@@ -58,7 +58,7 @@ else if (document.getElementById("location").value === 'learn') {
     }
     else if (document.getElementById("location").value === 'girifsc') {
         var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 13,
+            zoom: 15,
             center: girifsc
         });
         new google.maps.Marker({
@@ -71,7 +71,7 @@ else if (document.getElementById("location").value === 'learn') {
 
     else if (document.getElementById("location").value === 'girhar') {
         var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 13,
+            zoom: 15,
             center: girhar
         });
         new google.maps.Marker({
@@ -82,7 +82,7 @@ else if (document.getElementById("location").value === 'learn') {
 
 else if (document.getElementById("location").value === 'rain') {
         var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 13,
+            zoom: 15,
             center: rain
         });
         new google.maps.Marker({
@@ -93,7 +93,7 @@ else if (document.getElementById("location").value === 'rain') {
 
     else if (document.getElementById("location").value === 'dumbo') {
         var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 13,
+            zoom: 15,
             center: dumbo
         });
         new google.maps.Marker({
@@ -104,7 +104,7 @@ else if (document.getElementById("location").value === 'rain') {
 
 else if (document.getElementById("location").value === 'cuddle') {
         var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 13,
+            zoom: 15,
             center: cuddle
         });
         new google.maps.Marker({
@@ -115,7 +115,7 @@ else if (document.getElementById("location").value === 'cuddle') {
 
     else if (document.getElementById("location").value === 'pam') {
         var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 13,
+            zoom: 15,
             center: pam
         });
         
