@@ -125,6 +125,16 @@ footer {
 }
 
 
+.featured-button {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  background-color: #8a2be2;
+  color: #ffffff;
+  width: 130px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
 div#map {min-height: 360px;}
 
 /* Contact form*/
