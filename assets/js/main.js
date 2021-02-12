@@ -5,12 +5,12 @@ document.addEventListener('DOMContentLoaded', hideContent());
 
 function hideContent() {
     $('.card-body').children('p').hide();
-};
+}
 
 function toggleContent() {
     $(".card-button").click(function () {
         $(this).siblings('p').slideToggle('slow');
     });
-};
+}
 
 

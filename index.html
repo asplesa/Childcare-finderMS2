@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+        integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+        type="text/css" />
     <title>Home | Find Childcare</title>
-    <link rel="shortcut icon" type="image/png" href="assets/images/favicon 40x40.png"/>
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon-40x40.png" />
 
 </head>
+
 <body>
     <!--Logo and Navigation bar-->
-<header>
-  <div class="container-fluid header">
+    <header>
+        <div class="container-fluid header">
             <nav class="navbar navbar-dark navbar-expand-sm">
                 <a href="index.html" class="navbar-brand">Childcare Finder</a>
 
@@ -28,7 +32,7 @@
                         <li class="nav-item active mr-2">
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
-                      
+
                         <li class="nav-item mr-2">
                             <a class="nav-link " href="contact.html">Contact Us</a>
                         </li>
@@ -44,105 +48,127 @@
     <section id="cover-outer">
         <div id="hero-image" class="container-fluid">
         </div>
-    
+
     </section>
 
 
     <section id="search-function" class="container-fluid">
         <h2 class="text-center m-4">Find Local Childcare</h2>
-         <!-- Dropdown method -->
-         <!-- https://basscss.com/v7/docs/btn-primary/-->
-         <!-- How to center the button https://stackoverflow.com/questions/41664991/bootstrap-4-how-do-i-center-align-a-button#:~:text=With%20the%20use%20of%20the,will%20refer%20to%20the%20setting.-->
-    <div class="dropdown mx-auto mb-5 text-center">
-            
-        <select id="location"  onchange="initMap()">
-            <option value="dub">Choose from</option>
-            <option value="snig">Sniggering Tots</option>
-            <option value="learn">Learning Hands</option>
-            <option value="sage">Sagemille Creche</option>
-            <option value="girifsc">Giraffe IFSC Creche</option>
-            <option value="girhar">Giraffe Harcount Road Creche</option>
-            <option value="rain">Rainbow Creche</option>
-            <option value="dumbo">Dumbo Childminding</option>
-            <option value="cuddle">Cuddle Childminders</option>
-            <option value="pam">Pamela Childminders</option>
+        <!-- Dropdown method -->
+        <!-- https://basscss.com/v7/docs/btn-primary/-->
+        <!-- How to center the button https://stackoverflow.com/questions/41664991/bootstrap-4-how-do-i-center-align-a-button#:~:text=With%20the%20use%20of%20the,will%20refer%20to%20the%20setting.-->
+        <div class="dropdown mx-auto mb-5 text-center">
+
+            <select id="location" onchange="initMap()">
+                <option value="dub">Choose from</option>
+                <option value="snig">Sniggering Tots</option>
+                <option value="learn">Learning Hands</option>
+                <option value="sage">Sagemille Creche</option>
+                <option value="girifsc">Giraffe IFSC Creche</option>
+                <option value="girhar">Giraffe Harcount Road Creche</option>
+                <option value="rain">Rainbow Creche</option>
+                <option value="dumbo">Dumbo Childminding</option>
+                <option value="cuddle">Cuddle Childminders</option>
+                <option value="pam">Pamela Childminders</option>
             </select>
 
-    </div>
+        </div>
 
-<!--Google Map-->
+        <!--Google Map-->
         <div id="map"></div>
 
     </section>
 
 
 
-<!--Featured Providers Section-->
+    <!--Featured Providers Section-->
 
-<section id="featured" class="container-fluid">
-<div>
-        <h2 class="uppercase text-center mt-3">Our Featured Providers</h2>
-        <hr class="block-divider" />
-        <br>
-
-    <div class="row text-center">
-        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-            <div>
-                <img src="assets/images/creche-1.png" alt="sniggering-tots" height="200" width="200"> 
+    <section id="featured" class="container-fluid">
+        <div>
+            <h2 class="uppercase text-center mt-3">Our Featured Providers</h2>
+            <hr class="block-divider" />
             <br>
-            <div class="card-body">
-                <button type="button" class="btn featured-button btn-small card-button">Read More</button>
-            <p>Sniggering Tots is a creche like no other, designed to give the best possible childcare at the most affordable and flexible rates with top quality indoor and outdoor facilities. It is the ideal place for children to laugh and learn. Our qualified, experienced, staff create and maintain a safe, stimulating and exciting environment designed for all children.</p>
-            </div>
-        </div>
-    </div>
-    
-        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-            <div>
-                <img src="assets/images/creche-2.png" alt="learning-hands" height="200" width="200">
-                <br>
-            <div class="card-body">
-                <button type="button" class="btn featured-button btn-small card-button">Read More</button>
-            <p>Learning Hands is a focused school-age childcare provider. We exist to excite, engage and entertain children before school, after school, and throughout school holidays. We are a family-owned and run business and we aim to provide a premium service for school-aged children in an environment designed and dedicated with their sole needs in mind.</p>
-            </div>
-            </div>
-        </div>
-            
-        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                <div class ="media-creche">
-                <img src="assets/images/creche-3.png" alt="sagemille-creche" height="200" width="200">
-               <br>
-            <div class="card-body">
-                <button type="button" class="btn featured-button btn-small card-button">Read More</button>
-                <p>Sagemille creche is a bright and airy centre that has 6 spacious rooms, all colourfully decorated and arranged to offer each child the chance to explore and investigate their environment. There are lots of opportunities to enjoy messy play and art activities, supporting the children’s natural curiosity and love of learning.</p>
-            </div>
-            </div>
-        </div>    
 
-    </div>
-</div>
-</section>
+            <div class="row text-center">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div>
+                        <img src="assets/images/creche-1.png" alt="sniggering-tots" height="200" width="200">
+                        <br>
+                        <div class="card-body">
+                            <button type="button" class="btn featured-button btn-small card-button">Read More</button>
+                            <p>Sniggering Tots is a creche like no other, designed to give the best possible childcare
+                                at the most affordable and flexible rates with top quality indoor and outdoor
+                                facilities. It is the ideal place for children to laugh and learn. Our qualified,
+                                experienced, staff create and maintain a safe, stimulating and exciting environment
+                                designed for all children.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div>
+                        <img src="assets/images/creche-2.png" alt="learning-hands" height="200" width="200">
+                        <br>
+                        <div class="card-body">
+                            <button type="button" class="btn featured-button btn-small card-button">Read More</button>
+                            <p>Learning Hands is a focused school-age childcare provider. We exist to excite, engage and
+                                entertain children before school, after school, and throughout school holidays. We are a
+                                family-owned and run business and we aim to provide a premium service for school-aged
+                                children in an environment designed and dedicated with their sole needs in mind.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="media-creche">
+                        <img src="assets/images/creche-3.png" alt="sagemille-creche" height="200" width="200">
+                        <br>
+                        <div class="card-body">
+                            <button type="button" class="btn featured-button btn-small card-button">Read More</button>
+                            <p>Sagemille creche is a bright and airy centre that has 6 spacious rooms, all colourfully
+                                decorated and arranged to offer each child the chance to explore and investigate their
+                                environment. There are lots of opportunities to enjoy messy play and art activities,
+                                supporting the children’s natural curiosity and love of learning.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
     <footer>
         <ul class="list-inline social-links">
-        <li class="list-inline-item"><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Facebook</span></a></li>
-        <li class="list-inline-item"><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i><span class="sr-only">Twitter</span></a></li>
+            <li class="list-inline-item"><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"
+                        aria-hidden="true"></i><span class="sr-only">Facebook</span></a></li>
+            <li class="list-inline-item"><a href="https://www.twitter.com" target="_blank"><i
+                        class="fab fa-twitter-square" aria-hidden="true"></i><span class="sr-only">Twitter</span></a>
+            </li>
         </ul>
         <p class="text-center" id="text-copyright">
-        <small>2021 Childare Finder <i class="fa fa-copyright"></i></small>
-      </p>
+            <small>2021 Childare Finder <i class="fa fa-copyright"></i></small>
+        </p>
     </footer>
 
-<!--Scripts-->
-<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
-<script src="assets/js/main.js"></script>
-<script src="assets/js/maps.js"></script>
-<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdLe0PQG2bgEice5Z3SEaIdd9vbSlXoCY&callback=initMap" type="text/javascript"></script>
+    <!--Scripts-->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+        integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/maps.js"></script>
+    <script
+        src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdLe0PQG2bgEice5Z3SEaIdd9vbSlXoCY&callback=initMap"></script>
 
 
 </body>
+
 </html>
