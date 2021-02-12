@@ -72,6 +72,14 @@ margin-left: auto;
   background-size: cover;
 }
 
+/* Who are we section*/
+
+#who-section {
+background-color: rgb(138, 43, 226, 0.1) ;
+width: 100%;
+height: auto;
+}
+
 /* Footer*/
 
 footer {
