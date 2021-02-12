@@ -137,7 +137,20 @@ footer {
 
 div#map {min-height: 360px;}
 
-/* Contact form*/
+/* Contact page*/
+
+
+#hero-image-contact {
+    height: 600px;
+    width: 100%;
+    max-width: 100%;
+    
+    background: url("../images/contact-us-image.png") no-repeat center center;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 .contact-button {
   margin-top: 15px;
