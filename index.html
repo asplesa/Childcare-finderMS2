@@ -57,35 +57,26 @@
         <h1 class= "text-center pt-4">Who are Childcare Finder?</h1>
         <hr class="block-divider" />
         <br>
-                <p class="text-center p-3">Childcare Finder is Ireland's best resourse to help families
+                <p class="text-center p-3">Childcare Finder is Dublin's best resourse to help families
                      find childcare near them. Choose from creches, montessori's and childminders.
                 </p>
         </div>
         </div>
     </section>
 
+
+
     <section id="search-function" class="container-fluid">
         <h2 class="text-center m-4">Find Local Childcare</h2>
-        <!-- Dropdown method -->
-        <!-- https://basscss.com/v7/docs/btn-primary/-->
-        <!-- How to center the button https://stackoverflow.com/questions/41664991/bootstrap-4-how-do-i-center-align-a-button#:~:text=With%20the%20use%20of%20the,will%20refer%20to%20the%20setting.-->
-        <div class="dropdown mx-auto mb-5 text-center">
+       
+        <div class="container-fluid text-center">
+                <button id="crecheInfo" class="btn featured-button btn-small card-button" type="button">Creches</button>
+                <button id="montessoriInfo" class="btn featured-button btn-small card-button" type="button">Montessoris</button>
+                <button id="childminderInfo" class="btn featured-button btn-small card-button" type="button">Childminders</button>
+   
+            </div>
 
-            <select id="location" onchange="initMap()">
-                <option value="dub">Choose from</option>
-                <option value="snig">Sniggering Tots</option>
-                <option value="learn">Learning Hands</option>
-                <option value="sage">Sagemille Creche</option>
-                <option value="girifsc">Giraffe IFSC Creche</option>
-                <option value="girhar">Giraffe Harcount Road Creche</option>
-                <option value="rain">Rainbow Creche</option>
-                <option value="dumbo">Dumbo Childminding</option>
-                <option value="cuddle">Cuddle Childminders</option>
-                <option value="pam">Pamela Childminders</option>
-            </select>
-
-        </div>
-
+        
         <!--Google Map-->
         <div id="map"></div>
 
@@ -163,22 +154,14 @@
     </footer>
 
     <!--Scripts-->
-    <script src="https://code.jquery.com/jquery-3.5.1.js"
-        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
-        integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
-        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/maps.js"></script>
-    <script
-        src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdLe0PQG2bgEice5Z3SEaIdd9vbSlXoCY&callback=initMap"></script>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdLe0PQG2bgEice5Z3SEaIdd9vbSlXoCY&callback=initMap"></script>
 
 
 </body>
