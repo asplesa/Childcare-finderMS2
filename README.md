@@ -98,8 +98,7 @@ The project is developed primarily using  **HTML** ,  **CSS** and,  **JavaScript
 ![wireframe web](/wireframes/web-wireframe.JPG)
 ![wireframe mobile](/wireframes/mobile-wireframe.JPG)
 
-Balsamiq was used to create wireframes of the site. These are be found **here**
-
+Balsamiq was used to create wireframes of the site. These are be found **here** (https://github.com/asplesa/Childcare-finderMS2/tree/master/wireframes).
 The initial wireframes consisted of 3 pages, homepage, locations page and a contact page. We created a simple homepage with minimal content. We used images and headers to show the user what the site is about on first entry.
 
 The wireframe was amended during development to combine the homepage and location page into one scrolling page.
