@@ -57,10 +57,10 @@ The project is developed primarily using  **HTML** ,  **CSS** and,  **JavaScript
 **User Stories**
 
 1. As a **first time visitor** to the website, I want to know straight away what the website does.
-2. As a **parent** , I only want to know what childcare options are available in my area.
+2. As a **parent** , I only want to know what childcare options are available in my area. I work long hours and have limited time to search.
 3. As the **site owner** I want to provide a platform for childcare providers to get in front of parents. This benefits me as businesses may wish to advertise by way of premium listings as traffic to the site grows.
 4. As a **childcare service provider** , I want to showcase my business to get more customers.
-5. As a **childcare service provider,** I also want to know who my competitors are.
+5. As a **childcare service provider,** I also want to know who my competitors are. This will enable me to sell my business.
 
 **Scope**
 
@@ -95,6 +95,8 @@ The project is developed primarily using  **HTML** ,  **CSS** and,  **JavaScript
 **Skeleton**
 
 **Wireframes**
+![wireframe web](/wireframes/web-wireframe.JPG)
+![wireframe mobile](/wireframes/mobile-wireframe.JPG)
 
 Balsamiq was used to create wireframes of the site. These are be found **here**
 
@@ -197,7 +199,7 @@ The addition of a mailing list which would be linked and stored in a database sh
 - [Am I Responsive](http://ami.responsivedesign.is/) –was used to create responsive image for readme.MD
 - [Canva](https://www.canva.com/) was was used to create the logo, resizing images and editing photos for the website.
 
-![] (/wireframes/contact-page-image.JPG)
+![Contact page](/wireframes/contact-page-image.JPG)
 
 # **Testing**
 
