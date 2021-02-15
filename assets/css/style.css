@@ -167,3 +167,7 @@ div#map {min-height: 360px;}
   border-radius: 50px;
   font-weight: bold;
 }
+
+#404 {
+    background-color: rgb(138, 43, 226, 0.1) ;
+}
