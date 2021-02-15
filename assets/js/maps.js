@@ -34,7 +34,8 @@ function clearMarkers() {
     markers = [];
 }
 
-// On click on care type button the map display the available options
+// On click of care type button the map display the available options
+// Click on Creches button
      $("#crecheInfo").click(function() {
         clearMarkers();
         map.setZoom(10);
@@ -72,6 +73,7 @@ function clearMarkers() {
 }
 });        
 
+// Click on Montessoris button
 $("#montessoriInfo").click(function() {
         clearMarkers();
         map.setZoom(10);
@@ -109,7 +111,7 @@ $("#montessoriInfo").click(function() {
 }
 });        
 
-
+// Click on Childminders button
 $("#childminderInfo").click(function() {
         clearMarkers();
         map.setZoom(10);
