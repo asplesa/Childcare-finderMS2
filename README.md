@@ -18,7 +18,7 @@ The project is developed primarily using  **HTML** ,  **CSS** and,  **JavaScript
 
 [View the live project here.](https://asplesa.github.io/Childcare-finderMS2/)
 
-![] (/wireframes/homepage-image.JPG)
+![Home page](/wireframes/homepage-image.JPG)
 
 
 # **UX**
