@@ -126,8 +126,6 @@ footer {
 }
 
 #featured {
-    display: flex;
-    justify-content: center;
     color: #777777; 
   
 }

@@ -124,7 +124,7 @@ $("#childminderInfo").click(function() {
                 var marker = new google.maps.Marker({
                 position: new google.maps.LatLng(childminders[i].lat, childminders[i].lng),
                 map: map,           
-                title: childminders[i].name,
+                title: [i].name,
                 animation: google.maps.Animation.DROP,
             });
 
