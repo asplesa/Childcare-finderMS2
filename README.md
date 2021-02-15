@@ -59,8 +59,8 @@ The project is developed primarily using  **HTML** ,  **CSS** and,  **JavaScript
 1. As a **first time visitor** to the website, I want to know straight away what the website does.
 2. As a **parent** , I only want to know what childcare options are available in my area. I work long hours and have limited time to search.
 3. As the **site owner** I want to provide a platform for childcare providers to get in front of parents. This benefits me as businesses may wish to advertise by way of premium listings as traffic to the site grows.
-4. As a **childcare service provider** , I want to showcase my business to get more customers.
-5. As a **childcare service provider,** I also want to know who my competitors are. This will enable me to sell my business.
+4. As a **childcare service provider** , I want to showcase my business to get more customers so that I can fill all my available childcare spaces.
+5. As a **childcare service provider,** I also want to know who my competitors are. This will enable me to improve my offering so that I out compete my competitors.
 
 **Scope**
 
@@ -260,10 +260,10 @@ Tested on the following:
   - All pages of website have consistent navigation bar and footer.
 - **As a parent**
   - There is a clear and simple call to action on the homepage.
-  - The clear heading of Find Local Childcare followed by the dropdown instantly tells what the site is about.
+  - The clear heading of Find Local Childcare followed by the search buttons instantly tells what the site is about.
   - The visual impact of the map and markers solves my problem.
 - **Childcare Provider**
-  - The Featured provider section provides a showcase for my busines.
+  - The Featured provider section provides a showcase for my business.
 - **Childcare Provider competitors**
   - The Featured provider section also provides insights into who my competitors are thus allowing me improve my business description so I can stand out against my competitors.
 
@@ -311,7 +311,6 @@ As this was developed on the master branch, all changes made to the repository a
 
 **Code**
 
-- The drop-down menu of the search facility was taken from [https://basscss.com/v7/docs/btn-primary/](https://basscss.com/v7/docs/btn-primary/)
 - [StackOverflow](https://stackoverflow.com/questions/41664991/bootstrap-4-how-do-i-center-align-a-button#:~:text=With%20the%20use%20of%20the,will%20refer%20to%20the%20setting) was used to learn how to center the button for the dropdown.
 - Code snippet for success modal taken from [Codepen.io](https://codepen.io/hanapiers/pen/EXNrGP)
 - HTML/CSS: Guidance on Bootstrap, Tooltips, Modals and general Bootstrap integration and usage was obtained from the [Bootstrap Documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/).
