@@ -264,14 +264,11 @@ Tested on the following:
   - The Featured provider section provides a showcase for my business.
 
   ![Featured Provider](/assets/images/featured-provider.JPG)
- ![Featured Prov] https://github.com/asplesa/Childcare-finderMS2/blob/251c032acb195fbd3855daef5a89cf5b33f71db7/assets/images/search-function.JPG
-
+ 
 - **Childcare Provider competitors**
   - The Featured provider section also provides insights into who my competitors are thus allowing me improve my business description so I can stand out against my competitors.
 
-![](RackMultipart20210212-4-1ndmqa0_html_a6bd29b78b1a628c.png)
 
-![](RackMultipart20210212-4-1ndmqa0_html_892bc76665002c1a.gif)
 
 # **Deployment**
 
