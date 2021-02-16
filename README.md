@@ -263,7 +263,7 @@ Tested on the following:
   - The clear heading of Find Local Childcare followed by the search buttons instantly tells what the site is about.
   - The visual impact of the map and markers solves my problem.
 
-![Search Function](/assets/images/search-function.JPG)
+![Search Function](/images/search-function.JPG)
 
 - **Childcare Provider**
   - The Featured provider section provides a showcase for my business.
