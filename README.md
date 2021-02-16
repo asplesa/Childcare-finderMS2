@@ -246,11 +246,6 @@ Tested on the following:
 
 - **Tested on Developer Tools Lighthouse.**
 
-![](RackMultipart20210212-4-1ndmqa0_html_3a9ff0f312c59c95.png)
-
-  ![](RackMultipart20210212-4-1ndmqa0_html_a392a56dd26d9427.png)
-
-
 
 **Testing User Stories**
 
@@ -263,12 +258,13 @@ Tested on the following:
   - The clear heading of Find Local Childcare followed by the search buttons instantly tells what the site is about.
   - The visual impact of the map and markers solves my problem.
 
-![Search Function](/images/search-function.JPG)
+![Search Function](/assets/images/search-function.JPG)
 
 - **Childcare Provider**
   - The Featured provider section provides a showcase for my business.
 
   ![Featured Provider](/assets/images/featured-provider.JPG)
+ ![Featured Prov] https://github.com/asplesa/Childcare-finderMS2/blob/251c032acb195fbd3855daef5a89cf5b33f71db7/assets/images/search-function.JPG
 
 - **Childcare Provider competitors**
   - The Featured provider section also provides insights into who my competitors are thus allowing me improve my business description so I can stand out against my competitors.
