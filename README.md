@@ -262,8 +262,14 @@ Tested on the following:
   - There is a clear and simple call to action on the homepage.
   - The clear heading of Find Local Childcare followed by the search buttons instantly tells what the site is about.
   - The visual impact of the map and markers solves my problem.
+
+![Search Function](/assets/images/search-function.JPG)
+
 - **Childcare Provider**
   - The Featured provider section provides a showcase for my business.
+
+  ![Featured Provider](/assets/images/featured-provider.JPG)
+
 - **Childcare Provider competitors**
   - The Featured provider section also provides insights into who my competitors are thus allowing me improve my business description so I can stand out against my competitors.
 
