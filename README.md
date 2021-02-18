@@ -272,7 +272,7 @@ Tested on the following:
 - **Childcare Provider contact the site owner**
   - The contact page with form allows childcare providers to quickly and easily contact the site owner.
 
-    ![Contact page](/assets/images/contact-us-image.png)
+   ![Contact page](/wireframes/contact-page-image.JPG)
 
 
 # **Deployment**
