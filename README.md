@@ -244,9 +244,14 @@ Tested on the following:
   - Tested on iOS , Android 10 and Windows 10.
   - Tested for responsivness on [**Chrome DevTools**](https://developers.google.com/web/tools/chrome-devtools).
 
-**Performance Testing**
+# **Bugs**
 
-- **Tested on Developer Tools Lighthouse.**
+  During testing I identified some bugs:
+
+  - On Mobile the Googke map was overflowing the section. I fixed it by changing the container to container-fluid and then I increased the overall size of the container.
+  - Lighthouse: I improved the SEO by adding meta descriptions
+  - Google maps wouldn't load on the live site. I fixed this by adding the live url to the list of restricted urls
+
 
 
 **Testing User Stories**
@@ -273,6 +278,9 @@ Tested on the following:
   - The contact page with form allows childcare providers to quickly and easily contact the site owner.
 
    ![Contact page](/wireframes/contact-page-image.JPG)
+
+- **Childcare Provider**
+  - The Featured provider section provides a showcase for my business.
 
 
 # **Deployment**
