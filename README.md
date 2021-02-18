@@ -56,11 +56,11 @@ The project is developed primarily using  **HTML** ,  **CSS** and,  **JavaScript
 
 **User Stories**
 
-1. As a **first time visitor** to the website, I want to know straight away what the website does.
-2. As a **parent** , I only want to know what childcare options are available in my area. I work long hours and have limited time to search.
-3. As the **site owner** I want to provide a platform for childcare providers to get in front of parents. This benefits me as businesses may wish to advertise by way of premium listings as traffic to the site grows.
+1. As a **first time visitor** to the website, I want to know straight away what the website does so that I do not waste time.
+2. As a **parent** I want to search what childcare options are available in my area so that I can find somewhere safe to leave my children while I work.
+3. As the **site owner** I want to provide a platform for childcare providers to get in front of parents so that childcare businesses will advertise with me by way of premium listings.
 4. As a **childcare service provider** , I want to showcase my business to get more customers so that I can fill all my available childcare spaces.
-5. As a **childcare service provider,** I also want to know who my competitors are. This will enable me to improve my offering so that I out compete my competitors.
+5. As a **childcare service provider,** I want to be able to contact the site owner easily so that I can advertise my business and ask any questions I may have.
 
 **Scope**
 
@@ -97,6 +97,7 @@ The project is developed primarily using  **HTML** ,  **CSS** and,  **JavaScript
 **Wireframes**
 ![wireframe web](/wireframes/web-wireframe.JPG)
 ![wireframe mobile](/wireframes/mobile-wireframe.JPG)
+![wireframe contact](/wireframes/contact-wireframe.JPG)
 
 Balsamiq was used to create wireframes of the site. These are be found [here](https://github.com/asplesa/Childcare-finderMS2/tree/master/wireframes).
 The initial wireframes consisted of 3 pages, homepage, locations page and a contact page. We created a simple homepage with minimal content. We used images and headers to show the user what the site is about on first entry.
@@ -254,21 +255,22 @@ Tested on the following:
   - I immediately know what the site about.
   - The hero page is self explanatory showing pictures of smiling children so I know this is a website relating to children.
   - All pages of website have consistent navigation bar and footer.
+
 - **As a parent**
   - There is a clear and simple call to action on the homepage.
   - The clear heading of Find Local Childcare followed by the search buttons instantly tells what the site is about.
+  - The three categories of search allow parents to quickly and easily search the different care types.
   - The visual impact of the map and markers solves my problem.
 
 ![Search Function](/assets/images/search-function.JPG)
 
 - **Childcare Provider**
   - The Featured provider section provides a showcase for my business.
-
   ![Featured Provider](/assets/images/featured-provider.JPG)
  
-- **Childcare Provider competitors**
-  - The Featured provider section also provides insights into who my competitors are thus allowing me improve my business description so I can stand out against my competitors.
-
+- **Childcare Provider contact the site owner**
+  - The contact page with form allows childcare providers to quickly and easily contact the site owner.
+    ![Featured Provider](/assets/images/contact-page-image.JPG)
 
 
 # **Deployment**
