@@ -169,7 +169,7 @@ The site is designed to be fluid, dynamic, and responsive to all screen sizes an
 
 **Expansion of the search filter**
 
-Currently, users can choose between a list of childcare providers. In future this functionality could be expanded to include a search filter where users could filter based on the type of care they need and all locations with this type could be displayed on the map, along with a pop-up showing more details.
+Currently, users can choose between three types of childcare providers. In future this functionality could be expanded to include the providers contact details so parents could get in touch with them directly.
 
 **Creation of a mailing list database**
 
@@ -195,7 +195,7 @@ The addition of a mailing list which would be linked and stored in a database sh
 - [Screen Reader for Google Chrome](https://chrome.google.com/webstore/detail/screen-reader-for-google/nddfhonnmhcldcbmhbdldfpkbfpgjoeh/related?hl=en) was used to check screen-reader accessibility.
 - [W3C HTML Markup Validator](https://validator.w3.org/) was used to validate the HTML.
 - [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) was used to validate the CSS.
-- [JSHint Javascript Validator](https://jshint.com/) was used to validate the CSS.
+- [JSHint Javascript Validator](https://jshint.com/) was used to validate the JavaScript.
 - [HTML Formatter](https://www.webformatter.com/html)  html formatter to help keep things tidy
 - [Am I Responsive](http://ami.responsivedesign.is/) –was used to create responsive image for readme.MD
 - [Canva](https://www.canva.com/) was was used to create the logo, resizing images and editing photos for the website.
@@ -213,13 +213,13 @@ The addition of a mailing list which would be linked and stored in a database sh
 
 Validate by direct input [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-- Test result : No Errors Found But Warnings
+- Test result : No Errors Found 
 
 **HTML5 validator**
 
 Vaidate by direct input [HTML5 Validator](https://validator.w3.org/#validate_by_input)
 
-- Test result : No Errors Found But Warnings
+- Test result : No Errors Found
 
 **JavaScript validator**
 
@@ -242,7 +242,7 @@ Tested on the following:
   - Tested on Chrome, Firefox, Opera, Internet Explorer, Microsoft Edge, Safari.
 - **OS Compatibility**
   - Tested on iOS , Android 10 and Windows 10.
-- **Tested for responsivness on ** [**Chrome DevTools**](https://developers.google.com/web/tools/chrome-devtools) **.**
+  - Tested for responsivness on [**Chrome DevTools**](https://developers.google.com/web/tools/chrome-devtools).
 
 **Performance Testing**
 
@@ -266,11 +266,13 @@ Tested on the following:
 
 - **Childcare Provider**
   - The Featured provider section provides a showcase for my business.
+
   ![Featured Provider](/assets/images/featured-provider.JPG)
  
 - **Childcare Provider contact the site owner**
   - The contact page with form allows childcare providers to quickly and easily contact the site owner.
-    ![Featured Provider](/assets/images/contact-page-image.JPG)
+
+    ![Contact page](/assets/images/contact-us-image.png)
 
 
 # **Deployment**
