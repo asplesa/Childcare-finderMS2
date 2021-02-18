@@ -279,8 +279,8 @@ Tested on the following:
 
    ![Contact page](/wireframes/contact-page-image.JPG)
 
-- **Childcare Provider**
-  - The Featured provider section provides a showcase for my business.
+- **Site owner**
+  - The Featured provider section provides advertising space that I can sell to providers.
 
 
 # **Deployment**
