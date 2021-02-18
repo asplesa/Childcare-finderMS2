@@ -14,3 +14,9 @@ function toggleContent() {
 }
 
 
+
+// Clear form contents on submission of form
+// Code  from https://www.w3schools.com/jsref/met_form_reset.asp
+function clearForm() {
+  document.getElementById("myForm").reset();
+}

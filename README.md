@@ -194,6 +194,7 @@ The addition of a mailing list which would be linked and stored in a database sh
 - [Screen Reader for Google Chrome](https://chrome.google.com/webstore/detail/screen-reader-for-google/nddfhonnmhcldcbmhbdldfpkbfpgjoeh/related?hl=en) was used to check screen-reader accessibility.
 - [W3C HTML Markup Validator](https://validator.w3.org/) was used to validate the HTML.
 - [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) was used to validate the CSS.
+- [JSHint Javascript Validator](https://jshint.com/) was used to validate the CSS.
 - [HTML Formatter](https://www.webformatter.com/html)  html formatter to help keep things tidy
 - [Am I Responsive](http://ami.responsivedesign.is/) –was used to create responsive image for readme.MD
 - [Canva](https://www.canva.com/) was was used to create the logo, resizing images and editing photos for the website.

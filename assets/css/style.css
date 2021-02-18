@@ -72,6 +72,27 @@ margin-left: auto;
   background-size: cover;
 }
 
+#cover-text h4 {
+    color: #ffffff;
+  
+    font-style: italic;
+    bottom: 20px;
+    left: 150px;
+}
+
+#cover-text {
+  padding-top: 10px;
+  padding-left: 10px;
+  border-radius: 10%;
+  height: 50px;
+  width: 225px;
+  background-color: rgba(138, 43, 226, 0.1);
+  bottom: 20px;
+  left: 150px;
+ position: absolute;
+}
+
+
 /* Who are we section*/
 
 #who-section {
@@ -148,7 +169,7 @@ div#map {min-height: 360px;}
 #contact-header h1 {
     color: #ffffff;
     font-weight: bold;
-    bottom: 30px;
+       bottom: 30px;
     left: 150px;
 }
 
@@ -183,4 +204,5 @@ div#map {min-height: 360px;}
 
 #form-headers {
     font-weight: bold;
+    color:#2d2d2d;
 }
