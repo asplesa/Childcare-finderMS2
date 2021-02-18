@@ -248,8 +248,8 @@ Tested on the following:
 
   During testing I identified some bugs:
 
-  - On Mobile the Googke map was overflowing the section. I fixed it by changing the container to container-fluid and then I increased the overall size of the container.
-  - Lighthouse: I improved the SEO by adding meta descriptions
+  - On Mobile the Google map was overflowing the section. I fixed it by changing the container to container-fluid and then I increased the overall size of the container.
+  - Lighthouse: I improved the SEO by adding meta descriptions.
   - Google maps wouldn't load on the live site. I fixed this by adding the live url to the list of restricted urls
 
 
@@ -315,6 +315,7 @@ As this was developed on the master branch, all changes made to the repository a
 
 - All text used throughout the site was written by me.
 - All business ideas and general development concepts were devised by me.
+- Sincere thanks to my CI mentor for all their help throughout the project.
 
 **Media**
 
