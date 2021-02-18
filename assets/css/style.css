@@ -164,6 +164,11 @@ footer {
 
 div#map {min-height: 360px;}
 
+#featured-grid {
+    display: flex;
+    justify-content: center;
+}
+
 /* Contact page*/
 
 #contact-header h1 {
